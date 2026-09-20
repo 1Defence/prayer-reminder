@@ -1,2 +1,2 @@
 # Prayer Reminder
-An example greeter plugin
+Displays a reminder when your quick prayers are no longer on until reactivated.
