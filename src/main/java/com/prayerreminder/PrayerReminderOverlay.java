@@ -28,7 +28,7 @@ public class PrayerReminderOverlay extends Overlay
     @Override
     public Dimension render(Graphics2D g)
     {
-        if(!plugin.reminderActive)
+        if(!plugin.reminderActive || (!plugin.playerInAllowedRegion && !plugin.configAlwaysCheck))
             return null;
         Rectangle outer = new Rectangle(0, 0, client.getCanvasWidth(), client.getCanvasHeight());
         Rectangle cutout = getQuickPrayerBounds();
