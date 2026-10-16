@@ -335,8 +335,8 @@ public class PrayerReminderPlugin extends Plugin
         if(!configEnableMenu)
             return;
         menuManager.addManagedCustomMenu(TOGGLE_MENU_FIXED, e -> ToggleRegion());
-        menuManager.addManagedCustomMenu(TOGGLE_MENU_FIXED, e -> ToggleRegion());
-        menuManager.addManagedCustomMenu(TOGGLE_MENU_FIXED, e -> ToggleRegion());
+        menuManager.addManagedCustomMenu(TOGGLE_MENU_RESIZE_A, e -> ToggleRegion());
+        menuManager.addManagedCustomMenu(TOGGLE_MENU_RESIZE_B, e -> ToggleRegion());
     }
 
 }
